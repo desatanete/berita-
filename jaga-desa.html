@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perkuat Akuntabilitas, Pemerintah Desa Tanete Gelar Pelatihan Keuangan dan Sosialisasi Program Jaga Desa</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 py-10 px-4">
+    <div class="max-w-3xl mx-auto bg-white p-8 rounded-2xl shadow-lg">
+        <a href="index.html" class="text-blue-600 font-semibold hover:underline">← Kembali ke Daftar Berita</a>
+        
+        <h1 class="text-3xl font-bold my-6 text-gray-800">Perkuat Akuntabilitas, Pemerintah Desa Tanete Gelar Pelatihan Keuangan dan Sosialisasi Program Jaga Desa</h1>
+        
+        <img src="https://desatanete.github.io/assets/laporan-bumdes.jpeg" class="w-full rounded-xl mb-8 shadow-md">
+        
+        <div class="text-gray-700 leading-relaxed text-lg space-y-4">
+            <p>TANETE – Dalam upaya mewujudkan tata kelola pemerintahan yang bersih dan transparan, Pemerintah Desa Tanete melaksanakan kegiatan pelatihan intensif terkait pengelolaan keuangan desa yang dirangkaikan dengan sosialisasi program Jaga Desa. Langkah strategis ini diambil untuk membekali perangkat desa serta pengelola anggaran dengan pemahaman yang mendalam mengenai regulasi terbaru, sekaligus memastikan setiap tahapan pengelolaan dana desa mulai dari perencanaan hingga pelaporan berjalan sesuai dengan koridor hukum yang berlaku.</p>
+            <p>Pelatihan ini berfokus pada peningkatan kapasitas teknis perangkat desa dalam menyusun dokumen penatausahaan keuangan yang lebih akurat dan sistematis. Melalui pendampingan ini, para peserta diajak untuk memahami manajemen risiko guna menghindari kesalahan administratif yang berpotensi memicu persoalan hukum di kemudian hari. Selain aspek teknis, kegiatan ini juga menekankan pentingnya integritas individu dalam mengelola amanah anggaran publik agar setiap rupiah yang dikelola benar-benar memberikan dampak nyata bagi pembangunan infrastruktur dan pemberdayaan masyarakat di Desa Tanete.</p>
+            <p>Sejalan dengan penguatan kapasitas internal tersebut, program Jaga Desa diperkenalkan sebagai instrumen pendukung dalam mengawal pelaksanaan pembangunan di tingkat akar rumput. Melalui kolaborasi dengan aparat penegak hukum, program ini bertujuan memberikan edukasi dan pendampingan hukum bagi pemerintah desa. Kehadiran program Jaga Desa diharapkan mampu menciptakan rasa aman bagi para pemangku kebijakan desa dalam mengeksekusi program-program strategis, sehingga keraguan dalam penyerapan anggaran dapat diminimalisir melalui koordinasi yang baik dengan pihak kejaksaan.</p>
+            <p>Kegiatan yang berlangsung secara interaktif ini ditutup dengan komitmen bersama untuk menjadikan Desa Tanete sebagai pelopor desa mandiri yang tertib administrasi di Kabupaten Sidrap. Dengan sinergi antara keahlian manajerial keuangan yang mumpuni dan pengawalan hukum yang ketat, Pemerintah Desa Tanete optimis dapat mengoptimalkan seluruh potensi sumber daya yang ada demi kemaslahatan warga. Momentum pelatihan ini menjadi fondasi penting dalam membangun kepercayaan publik bahwa pembangunan desa dilaksanakan dengan prinsip keterbukaan, tanggung jawab, dan ketaatan penuh pada aturan yang berlaku.</p>
+          
+        </div>
+        <div class="mt-8 pt-6 border-t border-gray-100">
+  <p class="text-sm font-semibold text-gray-500 mb-3">Bagikan berita ini:</p>
+  <div class="flex flex-wrap gap-3">
+    
+    <a id="share-wa" href="#" target="_blank" 
+       class="flex items-center bg-green-500 text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-green-600 transition">
+       <i class="fab fa-whatsapp mr-2"></i> WhatsApp
+    </a>
+
+    <a id="share-fb" href="#" target="_blank" 
+       class="flex items-center bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-blue-700 transition">
+       <i class="fab fa-facebook mr-2"></i> Facebook
+    </a>
+
+    <button onclick="copyToClipboard()" 
+       class="flex items-center bg-gray-200 text-gray-700 px-4 py-2 rounded-full text-sm font-medium hover:bg-gray-300 transition">
+       <i class="fas fa-link mr-2"></i> Salin Link
+    </button>
+
+  </div>
+</div>
+
+<script>
+  const currentUrl = window.location.href;
+  const currentTitle = document.title;
+
+  // Link WhatsApp
+  document.getElementById('share-wa').href = `https://api.whatsapp.com/send?text=${encodeURIComponent(currentTitle + ' - ' + currentUrl)}`;
+
+  // Link Facebook
+  document.getElementById('share-fb').href = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(currentUrl)}`;
+
+  // Fungsi Salin Link
+  function copyToClipboard() {
+    navigator.clipboard.writeText(currentUrl);
+    alert("Link berita berhasil disalin!");
+  }
+</script>
+        <div class="mt-10 pt-6 border-t border-gray-100 text-sm text-gray-500">
+            Diterbitkan oleh: Pemerintah Desa Tanete
+        </div>
+    </div>
+</body>
+</html>
