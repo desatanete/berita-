@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aksi Jumat Bersih, Pemdes Tanete Lakukan Pengerukan Drainase Guna Mewujudkan Sidrap Bersih</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 py-10 px-4">
+    <div class="max-w-3xl mx-auto bg-white p-8 rounded-2xl shadow-lg">
+        <a href="index.html" class="text-blue-600 font-semibold hover:underline">← Kembali ke Daftar Berita</a>
+        
+        <h1 class="text-3xl font-bold my-6 text-gray-800">Aksi Jumat Bersih, Pemdes Tanete Lakukan Pengerukan Drainase Guna Mewujudkan Sidrap Bersih</h1>
+        
+        <img src="https://desatanete.github.io/assets/jumat-bersih.jpg" class="w-full rounded-xl mb-8 shadow-md">
+        
+        <div class="text-gray-700 leading-relaxed text-lg space-y-4">
+            <p>TANETE - Pemerintah Desa Tanete bersama warga sekitar melaksanakan aksi gotong royong melalui kegiatan Jumat Bersih yang difokuskan pada pengerukan saluran drainase yang tersumbat. Langkah nyata ini diambil sebagai bentuk kepedulian lingkungan sekaligus respons cepat dalam mengantisipasi genangan air yang kerap mengganggu aktivitas warga akibat tumpukan sedimen tanah dan sampah. Kegiatan ini juga menjadi bagian dari komitmen kolektif masyarakat Desa Tanete untuk mendukung penuh program daerah dalam mewujudkan Kabupaten Sidenreng Rappang (Sidrap) yang bersih, sehat, dan nyaman.</p>
+            <p>Kegiatan gotong royong ini menggambarkan semangat kebersamaan yang kuat antara perangkat desa, tokoh masyarakat, Tokoh Pemuda dan warga yang turun langsung ke lapangan dengan membawa peralatan kerja bakti. Proses pengerukan dilakukan secara manual guna mengangkat material lumpur dan sampah plastik yang menyumbat aliran air, sehingga daya tampung drainase kembali optimal dalam menghadapi intensitas hujan. Selain memulihkan fungsi saluran air, pembersihan ini juga bertujuan untuk memutus mata rantai penyebaran penyakit yang disebabkan oleh genangan air kotor di sekitar pemukiman.</p>
+            <p>Melalui momentum Jumat Bersih ini, Pemerintah Desa Tanete terus mengedukasi warga akan pentingnya menjaga kebersihan lingkungan mulai dari pekarangan rumah masing-masing. Kegiatan ini bukan sekadar rutinitas mingguan, melainkan sebuah gerakan moral untuk menumbuhkan kembali budaya gotong royong yang menjadi ciri khas masyarakat pedesaan. Kerja bakti ini juga menjadi sarana silaturahmi yang efektif dalam membangun komunikasi yang harmonis antara pemerintah desa dan warga guna bersama-sama menjaga fasilitas publik yang telah dibangun.</p>
+            <p>Aksi lingkungan ini ditutup dengan harapan agar kesadaran masyarakat dalam membuang sampah pada tempatnya semakin meningkat demi keberlanjutan kebersihan lingkungan desa. Dengan drainase yang kembali berfungsi normal, Desa Tanete tidak hanya terhindar dari potensi banjir skala kecil, tetapi juga berkontribusi nyata dalam menyukseskan visi besar Sidrap Bersih. Semangat sinergi dari tingkat bawah ini diharapkan dapat terus terjaga dan menjadi contoh konsistensi dalam menjaga kelestarian lingkungan di wilayah Kabupaten Sidrap.</p>
+          
+        </div>
+        <div class="mt-8 pt-6 border-t border-gray-100">
+  <p class="text-sm font-semibold text-gray-500 mb-3">Bagikan berita ini:</p>
+  <div class="flex flex-wrap gap-3">
+    
+    <a id="share-wa" href="#" target="_blank" 
+       class="flex items-center bg-green-500 text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-green-600 transition">
+       <i class="fab fa-whatsapp mr-2"></i> WhatsApp
+    </a>
+
+    <a id="share-fb" href="#" target="_blank" 
+       class="flex items-center bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-blue-700 transition">
+       <i class="fab fa-facebook mr-2"></i> Facebook
+    </a>
+
+    <button onclick="copyToClipboard()" 
+       class="flex items-center bg-gray-200 text-gray-700 px-4 py-2 rounded-full text-sm font-medium hover:bg-gray-300 transition">
+       <i class="fas fa-link mr-2"></i> Salin Link
+    </button>
+
+  </div>
+</div>
+
+<script>
+  const currentUrl = window.location.href;
+  const currentTitle = document.title;
+
+  // Link WhatsApp
+  document.getElementById('share-wa').href = `https://api.whatsapp.com/send?text=${encodeURIComponent(currentTitle + ' - ' + currentUrl)}`;
+
+  // Link Facebook
+  document.getElementById('share-fb').href = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(currentUrl)}`;
+
+  // Fungsi Salin Link
+  function copyToClipboard() {
+    navigator.clipboard.writeText(currentUrl);
+    alert("Link berita berhasil disalin!");
+  }
+</script>
+        <div class="mt-10 pt-6 border-t border-gray-100 text-sm text-gray-500">
+            Diterbitkan oleh: Pemerintah Desa Tanete
+        </div>
+    </div>
+</body>
+</html>
