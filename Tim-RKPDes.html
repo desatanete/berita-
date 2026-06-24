@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Langkah Awal Pembangunan, Desa Tanete Gelar Musdes Perencanaan Tahunan dan Bentuk Tim RKPDes</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 py-10 px-4">
+    <div class="max-w-3xl mx-auto bg-white p-8 rounded-2xl shadow-lg">
+        <a href="index.html" class="text-blue-600 font-semibold hover:underline">← Kembali ke Daftar Berita</a>
+        
+        <h1 class="text-3xl font-bold my-6 text-gray-800">Langkah Awal Pembangunan, Desa Tanete Gelar Musdes Perencanaan Tahunan dan Bentuk Tim RKPDes</h1>
+        
+        <img src="https://desatanete.github.io/assets/tanggap-bencana-1.jpg" class="w-full rounded-xl mb-8 shadow-md">
+        
+        <div class="text-gray-700 leading-relaxed text-lg space-y-4">
+            <p>TANETE - Pemerintah Desa Tanete secara resmi memulai tahapan perencanaan pembangunan desa melalui pelaksanaan Musyawarah Desa (Musdes) Perencanaan Tahunan yang dirangkaikan dengan pembentukan Tim Penyusun Rencana Kerja Pemerintah Desa (RKPDes). Forum musyawarah yang diselenggarakan di Aula Kantor Desa ini menjadi langkah awal yang sangat krusial dalam menentukan arah kebijakan, program prioritas, dan pengalokasian anggaran desa untuk tahun anggaran mendatang. Kegiatan ini dihadiri langsung oleh jajaran pemerintah desa, Badan Permusyawaratan Desa (BPD), tokoh masyarakat, perwakilan kelompok perempuan, serta tokoh pemuda guna memastikan asas partisipatif warga terpenuhi sejak dini.</p>
+            <p>Dalam narasi jalannya musyawarah, Kepala Desa Tanete menekankan bahwa RKPDes merupakan dokumen penjabaran dari Rencana Pembangunan Jangka Menengah Desa (RPJMDes) yang harus disusun secara cermat, realistis, dan berorientasi pada kebutuhan riil masyarakat. Fokus utama musyawarah ini adalah menyepakati pembentukan Tim Penyusun RKPDes yang bersidang secara adil, di mana komposisinya melibatkan perangkat desa, lembaga kemasyarakatan, serta keterwakilan unsur perempuan. Tim yang terbentuk ini nantinya akan mengemban mandat penting untuk melakukan pencermatan ulang dokumen RPJMDes, menyelaraskan dengan arah kebijakan pembangunan Kabupaten Sidrap, serta menyusun rancangan skala prioritas program pembangunan desa.</p>
+            <p>Selain membentuk tim kerja, forum ini juga menjadi ruang diskusi hangat dalam mengevaluasi capaian pembangunan tahun berjalan serta memetakan potensi masalah yang mendesak untuk segera diselesaikan. Keterlibatan aktif dari BPD dalam mengawal jalannya Musdes ini memastikan bahwa aspirasi dari tiap-tiap dusun dapat terakomodasi secara proporsional. Pemerintah Desa Tanete berkomitmen untuk memberikan ruang seluas-luasnya bagi tim penyusun untuk bekerja secara profesional, transparan, dan akuntabel, sehingga produk hukum desa yang dihasilkan nantinya benar-benar memiliki legalitas yang kuat dan berpihak pada kemaslahatan publik.</p>
+            <p>Musyawarah Desa ini diakhiri dengan penandatanganan berita acara pembentukan Tim Penyusun RKPDes secara bersama-sama oleh Kepala Desa dan Ketua BPD. Dengan resminya tim ini terbentuk, Desa Tanete siap bergerak cepat melaksanakan tahapan perencanaan selanjutnya, termasuk melakukan survei lapangan dan penyusunan rancangan anggaran biaya. Melalui sistem perencanaan yang matang dan melibatkan partisipasi aktif seluruh elemen masyarakat, diharapkan program kerja yang tersusun nantinya mampu mengakselerasi kemandirian ekonomi dan kemajuan infrastruktur di Desa Tanete.</p>
+          
+        </div>
+        <div class="mt-8 pt-6 border-t border-gray-100">
+  <p class="text-sm font-semibold text-gray-500 mb-3">Bagikan berita ini:</p>
+  <div class="flex flex-wrap gap-3">
+    
+    <a id="share-wa" href="#" target="_blank" 
+       class="flex items-center bg-green-500 text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-green-600 transition">
+       <i class="fab fa-whatsapp mr-2"></i> WhatsApp
+    </a>
+
+    <a id="share-fb" href="#" target="_blank" 
+       class="flex items-center bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-blue-700 transition">
+       <i class="fab fa-facebook mr-2"></i> Facebook
+    </a>
+
+    <button onclick="copyToClipboard()" 
+       class="flex items-center bg-gray-200 text-gray-700 px-4 py-2 rounded-full text-sm font-medium hover:bg-gray-300 transition">
+       <i class="fas fa-link mr-2"></i> Salin Link
+    </button>
+
+  </div>
+</div>
+
+<script>
+  const currentUrl = window.location.href;
+  const currentTitle = document.title;
+
+  // Link WhatsApp
+  document.getElementById('share-wa').href = `https://api.whatsapp.com/send?text=${encodeURIComponent(currentTitle + ' - ' + currentUrl)}`;
+
+  // Link Facebook
+  document.getElementById('share-fb').href = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(currentUrl)}`;
+
+  // Fungsi Salin Link
+  function copyToClipboard() {
+    navigator.clipboard.writeText(currentUrl);
+    alert("Link berita berhasil disalin!");
+  }
+</script>
+        <div class="mt-10 pt-6 border-t border-gray-100 text-sm text-gray-500">
+            Diterbitkan oleh: Pemerintah Desa Tanete
+        </div>
+    </div>
+</body>
+</html>
