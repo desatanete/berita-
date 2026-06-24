@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Komitmen Cetak Generasi Emas, Desa Tanete Gelar Rembuk Stunting untuk Perencanaan Anggaran 2027</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 py-10 px-4">
+    <div class="max-w-3xl mx-auto bg-white p-8 rounded-2xl shadow-lg">
+        <a href="index.html" class="text-blue-600 font-semibold hover:underline">← Kembali ke Daftar Berita</a>
+        
+        <h1 class="text-3xl font-bold my-6 text-gray-800">Tindak Lanjuti Laporan Banjir Warga, Pemdes Tanete Gerak Cepat Lakukan Pengerukan Manual Saluran Gendongan</h1>
+        
+        <img src="https://desatanete.github.io/assets/tanggap-bencana-1.jpg" class="w-full rounded-xl mb-8 shadow-md">
+        
+        <div class="text-gray-700 leading-relaxed text-lg space-y-4">
+            <p>TANETE - Sebagai wujud nyata dalam mendukung program nasional percepatan penurunan angka gagal tumbuh pada anak, Pemerintah Desa Tanete menyelenggarakan forum Rembuk Stunting sebagai agenda krusial dalam menyusun Rencana Kerja Pemerintah Desa (RKPDes) untuk tahun anggaran 2027. Pertemuan strategis ini mempertemukan berbagai pemangku kepentingan, mulai dari jajaran perangkat desa, Badan Permusyawaratan Desa (BPD), Bidan Desa, Kader Pemberdayaan Masyarakat (KPM), kader Posyandu, hingga tokoh masyarakat. Keterlibatan lintas sektor ini bertujuan untuk merumuskan langkah-langkah intervensi yang terintegrasi, terukur, dan berdampak langsung pada pemenuhan gizi serta kesehatan ibu dan anak di Desa Tanete.</p>
+            <p>Dalam narasi diskusi tersebut, KPM dan petugas kesehatan memaparkan hasil evaluasi serta pemetaan data sebaran stunting di wilayah desa sepanjang tahun berjalan. Data-data tersebut menjadi landasan objektif untuk menyusun strategi intervensi spesifik dan sensitif yang akan didanai oleh anggaran desa tahun 2027 mendatang. Pembahasan fokus pada diversifikasi program yang tidak hanya terpaku pada pemberian makanan tambahan (PMT) bagi balita, melainkan juga menyasar pada penguatan edukasi pola asuh bagi calon pengantin, ibu hamil, pemenuhan layanan sanitasi yang layak, hingga akses air bersih di lingkungan pemukiman warga yang dinilai memiliki korelasi kuat dengan tumbuh kembang anak.</p>
+            <p>Melalui rembuk ini, Pemerintah Desa Tanete menegaskan komitmennya untuk memberikan porsi anggaran yang proporsional demi memastikan tidak ada anak di Desa Tanete yang kehilangan kesempatan tumbuh secara optimal akibat keterbatasan gizi. Pihak Puskesmas yang hadir juga memberikan apresiasi atas proaktifnya pemerintah desa dalam mengawal isu kesehatan ini, seraya mengingatkan bahwa keberhasilan penanganan stunting sangat bergantung pada konsistensi pemantauan di tingkat Posyandu serta kesadaran kolektif orang tua dalam menerapkan pola hidup bersih dan sehat di rumah tangga.</p>
+            <p>Kegiatan ditutup dengan penyusunan komitmen bersama dan penandatanganan berita acara yang memuat daftar usulan kegiatan penanganan stunting yang akan diakomodasi dalam dokumen perencanaan desa tahun 2027. Dengan suksesnya pelaksanaan Rembuk Stunting ini, Desa Tanete optimis dapat berkontribusi signifikan dalam mewujudkan target Kabupaten Sidrap bebas stunting. Langkah preventif yang direncanakan sejak dini ini diharapkan mampu melahirkan generasi masa depan Desa Tanete yang sehat, cerdas, dan siap bersaing dalam menyongsong Indonesia Emas.</p>
+          
+        </div>
+        <div class="mt-8 pt-6 border-t border-gray-100">
+  <p class="text-sm font-semibold text-gray-500 mb-3">Bagikan berita ini:</p>
+  <div class="flex flex-wrap gap-3">
+    
+    <a id="share-wa" href="#" target="_blank" 
+       class="flex items-center bg-green-500 text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-green-600 transition">
+       <i class="fab fa-whatsapp mr-2"></i> WhatsApp
+    </a>
+
+    <a id="share-fb" href="#" target="_blank" 
+       class="flex items-center bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-blue-700 transition">
+       <i class="fab fa-facebook mr-2"></i> Facebook
+    </a>
+
+    <button onclick="copyToClipboard()" 
+       class="flex items-center bg-gray-200 text-gray-700 px-4 py-2 rounded-full text-sm font-medium hover:bg-gray-300 transition">
+       <i class="fas fa-link mr-2"></i> Salin Link
+    </button>
+
+  </div>
+</div>
+
+<script>
+  const currentUrl = window.location.href;
+  const currentTitle = document.title;
+
+  // Link WhatsApp
+  document.getElementById('share-wa').href = `https://api.whatsapp.com/send?text=${encodeURIComponent(currentTitle + ' - ' + currentUrl)}`;
+
+  // Link Facebook
+  document.getElementById('share-fb').href = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(currentUrl)}`;
+
+  // Fungsi Salin Link
+  function copyToClipboard() {
+    navigator.clipboard.writeText(currentUrl);
+    alert("Link berita berhasil disalin!");
+  }
+</script>
+        <div class="mt-10 pt-6 border-t border-gray-100 text-sm text-gray-500">
+            Diterbitkan oleh: Pemerintah Desa Tanete
+        </div>
+    </div>
+</body>
+</html>
