@@ -10,9 +10,9 @@
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Portal Berita Resmi - Desa Tanete" />
   <meta property="og:description" content="Informasi terkini mengenai pembangunan, ekonomi, dan sosial masyarakat Desa Tanete, Kecamatan Maritengngae, Sidrap." />
-  <meta property="og:url" content="https://desatanete.github.io/index.html" /> <!-- Sesuaikan jika nama file halaman utama Anda berbeda -->
+  <meta property="og:url" content="https://desatanete.github.io/index.html" />
   
-  <!-- Gambar Pratinjau Portal (Menggunakan Logo Sidrap yang sudah bertipe HTTPS & Absolut) -->
+  <!-- Gambar Pratinjau Portal -->
   <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/b/b7/Official_Logo_of_Sidenreng_Rappang_Regency.png" />
   <meta property="og:image:secure_url" content="https://upload.wikimedia.org/wikipedia/commons/b/b7/Official_Logo_of_Sidenreng_Rappang_Regency.png" />
   <meta property="og:image:width" content="1200" />
@@ -29,7 +29,7 @@
   <nav class="bg-white shadow-sm sticky top-0 z-50">
     <div class="max-w-6xl mx-auto px-4 h-16 flex justify-between items-center">
       <div class="flex items-center space-x-3">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b7/Official_Logo_of_Sidenreng_Rappang_Regency.png" class="h-8 w-auto">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b7/Official_Logo_of_Sidenreng_Rappang_Regency.png" class="h-8 w-auto" alt="Logo Sidrap">
         <span class="text-xl font-bold text-blue-900">Kabar Desa Tanete</span>
       </div>
       <a href="https://desatanete.github.io" class="text-sm font-semibold text-blue-600 hover:text-blue-800 transition">
@@ -43,144 +43,162 @@
     <p class="text-blue-200 text-lg max-w-2xl mx-auto">Informasi terkini mengenai pembangunan, ekonomi, dan sosial masyarakat Desa Tanete.</p>
   </header>
 
+  <!-- STRUKTUR MAIN DIPERBAIKI (Satu wadah untuk semua berita) -->
   <main class="max-w-6xl mx-auto px-4 py-12">
     
+    <!-- GRID UTAMA UNTUK DESKTOP (lg:grid-cols-3) -->
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         
-        <article class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-shadow duration-300 overflow-hidden border border-gray-100">
-        <div class="relative">
-          <img src="https://desatanete.github.io/assets/rembuk-stunting.jpg" class="w-full h-52 object-cover" alt="Website Desa">
-          <span class="absolute top-4 left-4 bg-red-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase">Kesehatan</span>
-        </div>
-        <div class="p-6">
-          <div class="flex items-center text-gray-400 text-xs mb-3">
-            <i class="far fa-calendar-alt mr-2"></i> 25 Juni 2026
+      <!-- Berita 1 -->
+      <article class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-shadow duration-300 overflow-hidden border border-gray-100 flex flex-col justify-between">
+        <div>
+          <div class="relative">
+            <img src="https://desatanete.github.io/assets/rembuk-stunting.jpg" class="w-full h-52 object-cover" alt="Rembuk Stunting">
+            <span class="absolute top-4 left-4 bg-red-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase">Kesehatan</span>
           </div>
-          <h2 class="text-xl font-bold mb-3 hover:text-blue-600 transition cursor-pointer">Komitmen Cetak Generasi Emas, Desa Tanete Gelar Rembuk Stunting untuk Perencanaan Anggaran 2027</h2>
-          <p class="text-gray-600 text-sm leading-relaxed mb-4">TANETE - Sebagai wujud nyata dalam mendukung program nasional percepatan penurunan angka gagal tumbuh pada anak, Pemerintah Desa Tanete menyelenggarakan forum Rembuk Stunting sebagai agenda krusial dalam menyusun Rencana Kerja Pemerintah Desa (RKPDes) untuk tahun anggaran 2027..........</p>
-          <a href="rembuk-stunting.html" class="inline-block bg-blue-600 text-white px-6 py-2 rounded-lg font-bold shadow-md hover:bg-blue-700 transition duration-300">
-  Baca Selengkapnya
-</a>
+          <div class="p-6 pb-0">
+            <div class="flex items-center text-gray-400 text-xs mb-3">
+              <i class="far fa-calendar-alt mr-2"></i> 25 Juni 2026
+            </div>
+            <h2 class="text-xl font-bold mb-3 hover:text-blue-600 transition cursor-pointer line-clamp-2">Komitmen Cetak Generasi Emas, Desa Tanete Gelar Rembuk Stunting untuk Perencanaan Anggaran 2027</h2>
+            <p class="text-gray-600 text-sm leading-relaxed mb-4 line-clamp-4">TANETE - Sebagai wujud nyata dalam mendukung program nasional percepatan penurunan angka gagal tumbuh pada anak, Pemerintah Desa Tanete menyelenggarakan forum Rembuk Stunting sebagai agenda krusial dalam menyusun Rencana Kerja Pemerintah Desa (RKPDes) untuk tahun anggaran 2027..........</p>
+          </div>
+        </div>
+        <div class="p-6 pt-0">
+          <a href="rembuk-stunting.html" class="inline-block w-full text-center bg-blue-600 text-white px-6 py-2 rounded-lg font-bold shadow-md hover:bg-blue-700 transition duration-300">Baca Selengkapnya</a>
         </div>
       </article>
 
-  <main class="max-w-6xl mx-auto px-4 py-12">
-    
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <!-- Berita 2 -->
+      <article class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-shadow duration-300 overflow-hidden border border-gray-100 flex flex-col justify-between">
+        <div>
+          <div class="relative">
+            <img src="https://desatanete.github.io/assets/tanggap-bencana-1.jpg" class="w-full h-52 object-cover" alt="Tanggap Bencana">
+            <span class="absolute top-4 left-4 bg-orange-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase">Tanggap Bencana</span>
+          </div>
+          <div class="p-6 pb-0">
+            <div class="flex items-center text-gray-400 text-xs mb-3">
+              <i class="far fa-calendar-alt mr-2"></i> 24 Mei 2026
+            </div>
+            <h2 class="text-xl font-bold mb-3 hover:text-blue-600 transition cursor-pointer line-clamp-2">Tindak Lanjuti Laporan Banjir Warga, Pemdes Tanete Gerak Cepat Lakukan Pengerukan Manual Saluran Gendongan</h2>
+            <p class="text-gray-600 text-sm leading-relaxed mb-4 line-clamp-4">TANETE - Menanggapi laporan cepat dari warga yang terdampak banjir, Pemerintah Desa Tanete langsung mengambil tindakan darurat di lapangan dengan menggelar giat pengerukan manual pada saluran gendongan yang tersumbat.........</p>
+          </div>
+        </div>
+        <div class="p-6 pt-0">
+          <a href="tanggap-bencana.html" class="inline-block w-full text-center bg-blue-600 text-white px-6 py-2 rounded-lg font-bold shadow-md hover:bg-blue-700 transition duration-300">Baca Selengkapnya</a>
+        </div>
+      </article>
         
-        <article class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-shadow duration-300 overflow-hidden border border-gray-100">
-        <div class="relative">
-          <img src="https://desatanete.github.io/assets/tanggap-bencana-1.jpg" class="w-full h-52 object-cover" alt="Website Desa">
-          <span class="absolute top-4 left-4 bg-orange-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase">Tanggap Bencana</span>
-        </div>
-        <div class="p-6">
-          <div class="flex items-center text-gray-400 text-xs mb-3">
-            <i class="far fa-calendar-alt mr-2"></i> 24 Mei 2026
+      <!-- Berita 3 -->
+      <article class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-shadow duration-300 overflow-hidden border border-gray-100 flex flex-col justify-between">
+        <div>
+          <div class="relative">
+            <img src="https://desatanete.github.io/assets/jumat-bersih.jpg" class="w-full h-52 object-cover" alt="Jumat Bersih">
+            <span class="absolute top-4 left-4 bg-purple-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase">Sosial</span>
           </div>
-          <h2 class="text-xl font-bold mb-3 hover:text-blue-600 transition cursor-pointer">Tindak Lanjuti Laporan Banjir Warga, Pemdes Tanete Gerak Cepat Lakukan Pengerukan Manual Saluran Gendongan</h2>
-          <p class="text-gray-600 text-sm leading-relaxed mb-4">TANETE - Menanggapi laporan cepat dari warga yang terdampak banjir, Pemerintah Desa Tanete langsung mengambil tindakan darurat di lapangan dengan menggelar giat pengerukan manual pada saluran gendongan yang tersumbat.........</p>
-          <a href="tanggap-bencana.html" class="inline-block bg-blue-600 text-white px-6 py-2 rounded-lg font-bold shadow-md hover:bg-blue-700 transition duration-300">
-  Baca Selengkapnya
-</a>
-        </div>
-      </article>
-        
-<article class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-shadow duration-300 overflow-hidden border border-gray-100">
-        <div class="relative">
-          <img src="https://desatanete.github.io/assets/jumat-bersih.jpg" class="w-full h-52 object-cover" alt="Website Desa">
-          <span class="absolute top-4 left-4 bg-purple-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase">Sosial</span>
-        </div>
-        <div class="p-6">
-          <div class="flex items-center text-gray-400 text-xs mb-3">
-            <i class="far fa-calendar-alt mr-2"></i> 22 Mei 2026
+          <div class="p-6 pb-0">
+            <div class="flex items-center text-gray-400 text-xs mb-3">
+              <i class="far fa-calendar-alt mr-2"></i> 22 Mei 2026
+            </div>
+            <h2 class="text-xl font-bold mb-3 hover:text-blue-600 transition cursor-pointer line-clamp-2">Aksi Jumat Bersih, Pemdes Tanete Lakukan Pengerukan Drainase Guna Mewujudkan Sidrap Bersih</h2>
+            <p class="text-gray-600 text-sm leading-relaxed mb-4 line-clamp-4">TANETE - Pemerintah Desa Tanete bersama warga sekitar melaksanakan aksi gotong royong melalui kegiatan Jumat Bersih yang difokuskan pada pengerukan saluran drainase yang tersumbat.........</p>
           </div>
-          <h2 class="text-xl font-bold mb-3 hover:text-blue-600 transition cursor-pointer">Aksi Jumat Bersih, Pemdes Tanete Lakukan Pengerukan Drainase Guna Mewujudkan Sidrap Bersih</h2>
-          <p class="text-gray-600 text-sm leading-relaxed mb-4">TANETE - Pemerintah Desa Tanete bersama warga sekitar melaksanakan aksi gotong royong melalui kegiatan Jumat Bersih yang difokuskan pada pengerukan saluran drainase yang tersumbat.........</p>
-          <a href="jumat-bersih.html" class="inline-block bg-blue-600 text-white px-6 py-2 rounded-lg font-bold shadow-md hover:bg-blue-700 transition duration-300">
-  Baca Selengkapnya
-</a>
+        </div>
+        <div class="p-6 pt-0">
+          <a href="jumat-bersih.html" class="inline-block w-full text-center bg-blue-600 text-white px-6 py-2 rounded-lg font-bold shadow-md hover:bg-blue-700 transition duration-300">Baca Selengkapnya</a>
         </div>
       </article>
 
-
-<article class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-shadow duration-300 overflow-hidden border border-gray-100">
-        <div class="relative">
-          <img src="https://desatanete.github.io/assets/jaga-desa.jpeg" class="w-full h-52 object-cover" alt="Website Desa">
-          <span class="absolute top-4 left-4 bg-orange-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase">Pemerintahan</span>
-        </div>
-        <div class="p-6">
-          <div class="flex items-center text-gray-400 text-xs mb-3">
-            <i class="far fa-calendar-alt mr-2"></i> 13 Apr 2026
+      <!-- Berita 4 -->
+      <article class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-shadow duration-300 overflow-hidden border border-gray-100 flex flex-col justify-between">
+        <div>
+          <div class="relative">
+            <img src="https://desatanete.github.io/assets/jaga-desa.jpeg" class="w-full h-52 object-cover" alt="Jaga Desa">
+            <span class="absolute top-4 left-4 bg-orange-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase">Pemerintahan</span>
           </div>
-          <h2 class="text-xl font-bold mb-3 hover:text-blue-600 transition cursor-pointer">Perkuat Akuntabilitas, Pemerintah Desa Tanete Gelar Pelatihan Keuangan dan Sosialisasi Program Jaga Desa</h2>
-          <p class="text-gray-600 text-sm leading-relaxed mb-4">TANETE – Dalam upaya mewujudkan tata kelola pemerintahan yang bersih dan transparan, Pemerintah Desa Tanete melaksanakan kegiatan pelatihan intensif terkait pengelolaan keuangan desa yang dirangkaikan dengan sosialisasi program Jaga Desa........</p>
-          <a href="jaga-desa.html" class="inline-block bg-blue-600 text-white px-6 py-2 rounded-lg font-bold shadow-md hover:bg-blue-700 transition duration-300">
-  Baca Selengkapnya
-</a>
+          <div class="p-6 pb-0">
+            <div class="flex items-center text-gray-400 text-xs mb-3">
+              <i class="far fa-calendar-alt mr-2"></i> 13 Apr 2026
+            </div>
+            <h2 class="text-xl font-bold mb-3 hover:text-blue-600 transition cursor-pointer line-clamp-2">Perkuat Akuntabilitas, Pemerintah Desa Tanete Gelar Pelatihan Keuangan dan Sosialisasi Program Jaga Desa</h2>
+            <p class="text-gray-600 text-sm leading-relaxed mb-4 line-clamp-4">TANETE – Dalam upaya mewujudkan tata kelola pemerintahan yang bersih dan transparan, Pemerintah Desa Tanete melaksanakan kegiatan pelatihan intensif terkait pengelolaan keuangan desa yang dirangkaikan dengan sosialisasi program Jaga Desa........</p>
+          </div>
+        </div>
+        <div class="p-6 pt-0">
+          <a href="jaga-desa.html" class="inline-block w-full text-center bg-blue-600 text-white px-6 py-2 rounded-lg font-bold shadow-md hover:bg-blue-700 transition duration-300">Baca Selengkapnya</a>
         </div>
       </article>
 
-<article class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-shadow duration-300 overflow-hidden border border-gray-100">
-        <div class="relative">
-          <img src="https://desatanete.github.io/assets/laporan-bumdes.jpeg" class="w-full h-52 object-cover" alt="Website Desa">
-          <span class="absolute top-4 left-4 bg-pink-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase">Ekonomi Desa</span>
-        </div>
-        <div class="p-6">
-          <div class="flex items-center text-gray-400 text-xs mb-3">
-            <i class="far fa-calendar-alt mr-2"></i> 14 Jan 2026
+      <!-- Berita 5 -->
+      <article class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-shadow duration-300 overflow-hidden border border-gray-100 flex flex-col justify-between">
+        <div>
+          <div class="relative">
+            <img src="https://desatanete.github.io/assets/laporan-bumdes.jpeg" class="w-full h-52 object-cover" alt="Laporan Bumdes">
+            <span class="absolute top-4 left-4 bg-pink-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase">Ekonomi Desa</span>
           </div>
-          <h2 class="text-xl font-bold mb-3 hover:text-blue-600 transition cursor-pointer">Perkuat Ekonomi Lokal, BUMDes Hikmat Desa Tanete Paparkan Laporan Pertanggungjawaban Tahunan</h2>
-          <p class="text-gray-600 text-sm leading-relaxed mb-4">Pemerintah Desa Tanete menggelar Musyawarah Desa dalam rangka penyampaian Laporan Pertanggungjawaban (LPJ) Pengurus BUMDes Hikmat untuk tahun buku yang berjalan. .......</p>
-          <a href="laporan-bumdes.html" class="inline-block bg-blue-600 text-white px-6 py-2 rounded-lg font-bold shadow-md hover:bg-blue-700 transition duration-300">
-  Baca Selengkapnya
-</a>
+          <div class="p-6 pb-0">
+            <div class="flex items-center text-gray-400 text-xs mb-3">
+              <i class="far fa-calendar-alt mr-2"></i> 14 Jan 2026
+            </div>
+            <h2 class="text-xl font-bold mb-3 hover:text-blue-600 transition cursor-pointer line-clamp-2">Perkuat Ekonomi Lokal, BUMDes Hikmat Desa Tanete Paparkan Laporan Pertanggungjawaban Tahunan</h2>
+            <p class="text-gray-600 text-sm leading-relaxed mb-4 line-clamp-4">Pemerintah Desa Tanete menggelar Musyawarah Desa dalam rangka penyampaian Laporan Pertanggungjawaban (LPJ) Pengurus BUMDes Hikmat untuk tahun buku yang berjalan. .......</p>
+          </div>
+        </div>
+        <div class="p-6 pt-0">
+          <a href="laporan-bumdes.html" class="inline-block w-full text-center bg-blue-600 text-white px-6 py-2 rounded-lg font-bold shadow-md hover:bg-blue-700 transition duration-300">Baca Selengkapnya</a>
         </div>
       </article>
 
-      <article class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-shadow duration-300 overflow-hidden border border-gray-100">
-        <div class="relative">
-          <img src="https://desatanete.github.io/assets/lkpj-lppd.jpeg" class="w-full h-52 object-cover" alt="Website Desa">
-          <span class="absolute top-4 left-4 bg-orange-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase">Pemerintahan</span>
-        </div>
-        <div class="p-6">
-          <div class="flex items-center text-gray-400 text-xs mb-3">
-            <i class="far fa-calendar-alt mr-2"></i> 14 Jan 2026
+      <!-- Berita 6 -->
+      <article class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-shadow duration-300 overflow-hidden border border-gray-100 flex flex-col justify-between">
+        <div>
+          <div class="relative">
+            <img src="https://desatanete.github.io/assets/lkpj-lppd.jpeg" class="w-full h-52 object-cover" alt="LKPJ LPPD">
+            <span class="absolute top-4 left-4 bg-orange-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase">Pemerintahan</span>
           </div>
-          <h2 class="text-xl font-bold mb-3 hover:text-blue-600 transition cursor-pointer">Wujudkan Tata Kelola Transparan, Kepala Desa Tanete Sampaikan Laporan Penyelenggaraan Pemerintahan dan Kinerja Tahunan</h2>
-          <p class="text-gray-600 text-sm leading-relaxed mb-4">TANETE – Pemerintah Desa Tanete melaksanakan agenda konstitusional penting melalui Musyawarah Desa terkait penyampaian Laporan Penyelenggaraan Pemerintahan Desa (LPPD) akhir tahun anggaran......</p>
-          <a href="lkpj-lppd.html" class="inline-block bg-blue-600 text-white px-6 py-2 rounded-lg font-bold shadow-md hover:bg-blue-700 transition duration-300">
-  Baca Selengkapnya
-</a>
+          <div class="p-6 pb-0">
+            <div class="flex items-center text-gray-400 text-xs mb-3">
+              <i class="far fa-calendar-alt mr-2"></i> 14 Jan 2026
+            </div>
+            <h2 class="text-xl font-bold mb-3 hover:text-blue-600 transition cursor-pointer line-clamp-2">Wujudkan Tata Kelola Transparan, Kepala Desa Tanete Sampaikan Laporan Penyelenggaraan Pemerintahan dan Kinerja Tahunan</h2>
+            <p class="text-gray-600 text-sm leading-relaxed mb-4 line-clamp-4">TANETE – Pemerintah Desa Tanete melaksanakan agenda konstitusional penting melalui Musyawarah Desa terkait penyampaian Laporan Penyelenggaraan Pemerintahan Desa (LPPD) akhir tahun anggaran......</p>
+          </div>
+        </div>
+        <div class="p-6 pt-0">
+          <a href="lkpj-lppd.html" class="inline-block w-full text-center bg-blue-600 text-white px-6 py-2 rounded-lg font-bold shadow-md hover:bg-blue-700 transition duration-300">Baca Selengkapnya</a>
         </div>
       </article>
       
-<article class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-shadow duration-300 overflow-hidden border border-gray-100">
-        <div class="relative">
-          <img src="https://desatanete.github.io/assets/musrenbang-desa.jpeg" class="w-full h-52 object-cover" alt="Website Desa">
-          <span class="absolute top-4 left-4 bg-orange-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase">Pemerintahan</span>
-        </div>
-        <div class="p-6">
-          <div class="flex items-center text-gray-400 text-xs mb-3">
-            <i class="far fa-calendar-alt mr-2"></i> 14 Jan 2026
+      <!-- Berita 7 -->
+      <article class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-shadow duration-300 overflow-hidden border border-gray-100 flex flex-col justify-between">
+        <div>
+          <div class="relative">
+            <img src="https://desatanete.github.io/assets/musrenbang-desa.jpeg" class="w-full h-52 object-cover" alt="Musrenbang Desa">
+            <span class="absolute top-4 left-4 bg-orange-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase">Pemerintahan</span>
           </div>
-          <h2 class="text-xl font-bold mb-3 hover:text-blue-600 transition cursor-pointer">Serap Aspirasi Warga, Desa Tanete Gelar Musrenbang untuk RKPD Sidrap Tahun 2027</h2>
-          <p class="text-gray-600 text-sm leading-relaxed mb-4">TANETE – Pemerintah Desa Tanete, Kecamatan MaritengngaE, menggelar Musyawarah Perencanaan Pembangunan (Musrenbang) tingkat desa dalam rangka penyusunan Rencana Kerja Pemerintah Daerah (RKPD) Kabupaten Sidenreng Rappang (Sidrap) Tahun 2027,......</p>
-          <a href="musrenbang-tingkat-desa.html" class="inline-block bg-blue-600 text-white px-6 py-2 rounded-lg font-bold shadow-md hover:bg-blue-700 transition duration-300">
-  Baca Selengkapnya
-</a>
+          <div class="p-6 pb-0">
+            <div class="flex items-center text-gray-400 text-xs mb-3">
+              <i class="far fa-calendar-alt mr-2"></i> 14 Jan 2026
+            </div>
+            <h2 class="text-xl font-bold mb-3 hover:text-blue-600 transition cursor-pointer line-clamp-2">Serap Aspirasi Warga, Desa Tanete Gelar Musrenbang untuk RKPD Sidrap Tahun 2027</h2>
+            <p class="text-gray-600 text-sm leading-relaxed mb-4 line-clamp-4">TANETE – Pemerintah Desa Tanete, Kecamatan MaritengngaE, menggelar Musyawarah Perencanaan Pembangunan (Musrenbang) tingkat desa dalam rangka penyusunan Rencana Kerja Pemerintah Daerah (RKPD) Kabupaten Sidenreng Rappang (Sidrap) Tahun 2027,......</p>
+          </div>
+        </div>
+        <div class="p-6 pt-0">
+          <a href="musrenbang-tingkat-desa.html" class="inline-block w-full text-center bg-blue-600 text-white px-6 py-2 rounded-lg font-bold shadow-md hover:bg-blue-700 transition duration-300">Baca Selengkapnya</a>
         </div>
       </article>
-      
 
-    </div>
+    </div> <!-- AKHIR DARI GRID -->
 
-   <div class="flex justify-center mt-10 mb-10 space-x-4">
-    <span class="w-10 h-10 flex items-center justify-center rounded-lg bg-blue-600 text-white font-bold shadow-md">1</span>
-   <a href="https://desatanete.github.io/berita-/page2.html" class="w-10 h-10 flex items-center justify-center rounded-lg bg-white text-gray-700 font-bold border border-gray-200 hover:bg-gray-100 transition shadow-sm">2</a>
-    <a href="https://desatanete.github.io/berita-/page2.html" class="px-4 h-10 flex items-center justify-center rounded-lg bg-white text-gray-700 font-bold border border-gray-200 hover:bg-gray-100 transition shadow-sm">
+    <!-- Navigasi Halaman -->
+    <div class="flex justify-center mt-12 mb-4 space-x-4">
+      <span class="w-10 h-10 flex items-center justify-center rounded-lg bg-blue-600 text-white font-bold shadow-md">1</span>
+      <a href="https://desatanete.github.io/berita-/page2.html" class="w-10 h-10 flex items-center justify-center rounded-lg bg-white text-gray-700 font-bold border border-gray-200 hover:bg-gray-100 transition shadow-sm">2</a>
+      <a href="https://desatanete.github.io/berita-/page2.html" class="px-4 h-10 flex items-center justify-center rounded-lg bg-white text-gray-700 font-bold border border-gray-200 hover:bg-gray-100 transition shadow-sm">
         Berikutnya <i class="fas fa-chevron-right ml-2 text-xs"></i>
-    </a>
-</div>
+      </a>
+    </div>
   </main>
 
   <footer class="bg-gray-900 text-gray-400 py-12 px-4">
@@ -192,10 +210,13 @@
       <div class="md:text-right space-x-4">
         <a href="https://www.facebook.com/profile.php?id=100086287128529" target="_blank" rel="noopener noreferrer" class="hover:text-blue-400 transition">Facebook</a>
         <a href="https://www.tiktok.com/@pemerintahdesatanete" target="_blank" rel="noopener noreferrer" class="hover:text-blue-300 transition">Tiktok</a>
-          <a href="https://www.instagram.com/desatanete" target="_blank" rel="noopener noreferrer" class="hover:text-pink-400 transition">Instagram</a>
+        <a href="https://www.instagram.com/desatanete" target="_blank" rel="noopener noreferrer" class="hover:text-pink-400 transition">Instagram</a>
       </div>
     </div>
     <div class="text-center mt-10 text-xs tracking-widest uppercase">
       &copy; 2026 Digitalisasi Desa Tanete - SAROMASE Sidenreng Rappang
     </div>
   </footer>
+
+</body>
+</html>
