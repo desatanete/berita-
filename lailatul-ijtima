@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- 1. Menyingkat Judul khusus untuk sistem Sosmed & Browser (Optimal 56 Karakter) -->
+    <title>Perkokoh Ukhuwah dan Syiar Islam, MWC NU Maritengngae Gelar Lailatul Ijtima di Masjid Hikmat Desa Tanetee</title>
+    <!-- Perbaikan Deskripsi agar sesuai dengan berita Musdes -->
+    <meta name="description" content="Perkokoh Ukhuwah dan Syiar Islam, MWC NU Maritengngae Gelar Lailatul Ijtima di Masjid Hikmat Desa Tanete.">
+
+    <!-- Open Graph (Disesuaikan penuh agar pratinjau gambar & teks sinkron) -->
+    <meta property="og:title" content="Perkokoh Ukhuwah dan Syiar Islam, MWC NU Maritengngae Gelar Lailatul Ijtima di Masjid Hikmat Desa Tanete">
+    <meta property="og:description" content="Perkokoh Ukhuwah dan Syiar Islam, MWC NU Maritengngae Gelar Lailatul Ijtima di Masjid Hikmat Desa Tanete.">
+    <!-- Ganti 'musdes.jpg' jika nama file foto kegiatan Musdes Anda di folder assets berbeda -->
+    <meta property="og:image" content="https://desatanete.github.io/assets/bpjs-keliling.jpg">
+    <meta property="og:image:secure_url" content="https://desatanete.github.io/assets/bpjs-keliling.jpg">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:type" content="article">
+    
+    <!-- Perbaikan Kata Kunci (SEO) agar relevan dengan Musdes -->
+    <meta name="keywords" content="LailatulIjtima MWCNUMaritengngae DesaTanete MasjidHikmat PCNUSidrap NahdlatulUlama Sidrap">
+
+    <!-- Script Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tambahan: Font Awesome (Wajib ada agar ikon mata, wa, fb, dan link muncul) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-gray-100 py-10 px-4">
+    <div class="max-w-3xl mx-auto bg-white p-8 rounded-2xl shadow-lg">
+        <a href="index.html" class="text-blue-600 font-semibold hover:underline flex items-center gap-1">
+            <i class="fas fa-arrow-left text-sm"></i> Kembali ke Daftar Berita
+        </a>
+        
+        <!-- Judul Panjang Tetap Tampil Penuh di Dalam Halaman Berita -->
+        <h1 class="text-3xl font-bold my-6 text-gray-800 leading-tight">
+            Perkokoh Ukhuwah dan Syiar Islam, MWC NU Maritengngae Gelar Lailatul Ijtima di Masjid Hikmat Desa Tanete
+        </h1>
+
+        <!-- Fitur: View Counter (Jumlah Tayangan) -->
+        <div class="flex items-center text-gray-500 text-sm mb-6 pb-4 border-b border-gray-100">
+            <i class="fas fa-eye mr-2"></i>
+            <span id="visits" class="font-semibold mr-1">...</span> kali dilihat
+        </div>
+        
+        <!-- Ganti 'musdes.jpg' jika nama file foto kegiatan Musdes Anda di folder assets berbeda -->
+        <img src="https://desatanete.github.io/assets/bpjs-keliling.jpg" class="w-full rounded-xl mb-8 shadow-md" alt="Musdes Desa Tanete">
+        
+        <!-- Isi Berita dengan Optimasi Tulisan Tebal & Miring -->
+        <div class="text-gray-700 leading-relaxed text-lg space-y-4">
+            <p><b>TANETE</b> - Suasana penuh keberkahan meliputi Masjid Hikmat Desa Tanete saat digelarnya kegiatan Lailatul Ijtima oleh Majelis Wakil Cabang Nahdlatul Ulama (MWC NU) Kecamatan Maritengngae. Agenda keagamaan rutin ini menjadi wadah silaturahmi sekaligus penguatan ajaran Ahlussunnah wal Jama'ah An-Nahdliyah yang dihadiri oleh jajaran pengurus MWC NU, badan otonom (Banom), tokoh masyarakat, pemerintah desa, serta jamaah warga Desa Tanete. Acara ini dipandu secara tertib oleh Asrianto Rahim, S.H., Pengurus Banom NU Kelurahan Majjelling Wattang, yang bertindak sebagai pembawa acara (MC).</p>
+            
+            <p>Rangkaian ibadah diawali dengan pelaksanaan salat Magrib berjamaah yang diimami secara khusyuk oleh Ustadz Adam Malik, S.Pd.I., Pengurus Banom NU Kecamatan Tellu Limpoe. Usai salat Magrib dan zikir bersama, kegiatan dilanjutkan dengan pembacaan Surah Yasin secara berjamaah yang dipimpin langsung oleh KM. Muh. Uswahasan S, M.Ag., Pengurus Banom NU Kelurahan Majjelling Wattang. Lantunan ayat-ayat suci Al-Qur'an tersebut dipanjatkan bersama jamaah untuk memohon keberkahan, keselamatan, serta kedamaian bagi masyarakat Desa Tanete dan Kabupaten Sidrap.</p>
+            
+            <p>Memasuki agenda inti menjelang Isya, jamaah menyimak tausiyah keagamaan yang dibawakan langsung oleh Ketua Tanfidziyah PCNU Kabupaten Sidrap, Gurutta (Grt.) Ustadz Muhammad Yusuf, S.Sos., M.A. Dalam ceramahnya, beliau menekankan pentingnya merawat tradisi amaliah NU, memperkuat ukhuwah islamiyah, serta mengokohkan sinergi antara ulama, umara (pemerintah desa), dan warga. Tausiyah yang disampaikan dengan lugas dan menyejukkan ini menjadi pencerahan spiritual bagi seluruh jamaah yang hadir memenuhi ruang utama masjid.</p>
+            
+            <p>Seluruh rangkaian Lailatul Ijtima ini ditutup secara tertib dengan pelaksanaan salat Isya berjamaah yang kembali diimami oleh Ustadz Adam Malik, S.Pd.I. Pemerintah Desa Tanete menyampaikan apresiasi setinggi-tingginya atas terselenggaranya kegiatan syiar Islam ini di Masjid Hikmat. Melalui kegiatan keagamaan yang terstruktur ini, diharapkan nilai-nilai religius dan semangat kebersamaan di Desa Tanete senantiasa bertumbuh subur serta membawa keberkahan bagi seluruh lapisan masyarakat.</p>
+        </div>
+
+        <!-- Fitur: Tags / Kata Kunci di Paling Bawah Berita -->
+        <div class="mt-8 pt-4 border-t border-gray-100">
+            <h4 class="text-xs font-bold text-gray-400 uppercase tracking-wider mb-2">Topik Terkait:</h4>
+            <div class="flex flex-wrap gap-2">
+                <a href="index.html" class="bg-gray-100 text-gray-600 px-3 py-1 rounded-full text-xs font-medium hover:bg-blue-100 hover:text-blue-600 transition">#DesaTanete</a>
+                <a href="index.html" class="bg-gray-100 text-gray-600 px-3 py-1 rounded-full text-xs font-medium hover:bg-blue-100 hover:text-blue-600 transition">##MWCNUMaritengngae</a>
+                <a href="index.html" class="bg-gray-100 text-gray-600 px-3 py-1 rounded-full text-xs font-medium hover:bg-blue-100 hover:text-blue-600 transition">#PCNUSidrap</a>
+                <a href="index.html" class="bg-gray-100 text-gray-600 px-3 py-1 rounded-full text-xs font-medium hover:bg-blue-100 hover:text-blue-600 transition">#NahdlatulUlama</a>
+            </div>
+        </div>
+
+        <!-- Tombol Bagikan Berita -->
+        <div class="mt-8 pt-6 border-t border-gray-100">
+            <p class="text-sm font-semibold text-gray-500 mb-3">Bagikan berita ini:</p>
+            <div class="flex flex-wrap gap-3">
+                <a id="share-wa" href="#" target="_blank" class="flex items-center bg-green-500 text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-green-600 transition">
+                    <i class="fab fa-whatsapp mr-2"></i> WhatsApp
+                </a>
+
+                <a id="share-fb" href="#" target="_blank" class="flex items-center bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-blue-700 transition">
+                    <i class="fab fa-facebook mr-2"></i> Facebook
+                </a>
+
+                <button onclick="copyToClipboard()" class="flex items-center bg-gray-200 text-gray-700 px-4 py-2 rounded-full text-sm font-medium hover:bg-gray-300 transition">
+                    <i class="fas fa-link mr-2"></i> Salin Link
+                </button>
+            </div>
+        </div>
+
+        <div class="mt-10 pt-6 border-t border-gray-100 text-sm text-gray-500">
+            Diterbitkan oleh: Pemerintah Desa Tanete
+        </div>
+    </div>
+
+    <!-- Script Pengendali Share & View Counter (Key unik diubah menjadi: musdestanete) -->
+    <script>
+        const currentUrl = window.location.href;
+        const currentTitle = document.title;
+
+        // Link WhatsApp
+        document.getElementById('share-wa').href = `https://api.whatsapp.com/send?text=${encodeURIComponent(currentTitle + ' - ' + currentUrl)}`;
+
+        // Link Facebook
+        document.getElementById('share-fb').href = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(currentUrl)}`;
+
+        // Fungsi Salin Link
+        function copyToClipboard() {
+            navigator.clipboard.writeText(currentUrl);
+            alert("Link berita berhasil disalin!");
+        }
+
+        // Fungsi Callback untuk hitungan pembaca otomatis
+        function cb(response) {
+            document.getElementById('visits').innerText = response.value;
+        }
+    </script>
+    <script async src="https://api.countapi.xyz/hit/desatanete-berita/musdestanete?callback=cb"></script>
+</body>
+</html>
